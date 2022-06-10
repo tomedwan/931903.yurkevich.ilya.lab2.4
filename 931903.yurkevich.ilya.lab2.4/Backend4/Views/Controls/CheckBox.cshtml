@@ -1,0 +1,14 @@
+﻿@{
+    ViewData["Title"] = "Check Box";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<form method="post">
+    @Html.CheckBox("isSelected", false)
+    <label>IsSelected</label>
+    <p>
+        <input type="submit" class="btn btn-outline-dark" value="Submit" />
+    </p>
+</form>
+
